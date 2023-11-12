@@ -4,6 +4,7 @@ import 'package:examenparcial1/listaTareas.dart';
 import 'package:examenparcial1/noticias.dart';
 import 'package:examenparcial1/podcast.dart';
 
+
 void main() {
   runApp(MyApp());
 }
@@ -18,7 +19,6 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => HomeScreen(),
         '/noticias': (context) => NoticiasPage(),
-        '/cambioMoneda': (context) => CambioMonedaPage(),
         '/listaTareas': (context) => ListaTareasPage(),
         '/podcast': (context) => PodcastApp(),
       },
@@ -48,13 +48,6 @@ class HomeScreen extends StatelessWidget {
               },
             ),
             ListTile(
-              title: Text('Cambio de monedas'),
-              leading: Icon(Icons.currency_exchange),
-              onTap: () {
-                Navigator.pushNamed(context, '/cambioMoneda');
-              },
-            ),
-            ListTile(
               title: Text('Lista de tareas'),
               leading: Icon(Icons.list),
               onTap: () {
@@ -70,20 +63,6 @@ class HomeScreen extends StatelessWidget {
             ),
           ],
         ),
-      ),
-    );
-  }
-}
-
-class CambioMonedaPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Cambio de monedas'),
-      ),
-      body: Center(
-        child: Text('Esta es la pagina de cambio de monedas'),
       ),
     );
   }
