@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:examenparcial1/noticias.dart';
 
 class NoticiasPage extends StatelessWidget {
   @override
@@ -32,11 +31,16 @@ class NoticiasPage extends StatelessWidget {
           ),
           SizedBox(height: 16.0),
           NoticiaCard(
-            titulo: 'Feria de Tecnologia',
+            titulo: 'Feria de Deportes',
             fecha: '22 de noviembre, 2023',
             contenido:
-                'Muestra tus habilidades y conocimientos sobre el maravilloso mundo de la tecnologia.',
-          ),
+                'Muestra tus hablidades y cualidades fisica. Desempenate y se el primero.',
+          ),SizedBox(height: 16.0),
+          NoticiaCard(
+            titulo: 'Fiesta de graduacion del 99',
+            fecha: '15 de diciembre, 2023',
+            contenido:
+                'Ven y recuerda como fue tu etapa estudinatil en tu universidad que te vio crecer.',)
         ],
       ),
     );
