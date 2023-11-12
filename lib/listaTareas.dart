@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:examenparcial1/listaTareas.dart';
 
 class ListaTareasPage extends StatelessWidget {
   @override
@@ -16,16 +15,30 @@ class ListaTareasPage extends StatelessWidget {
             nombre: 'Marcio Moran',
             descripcion: 'Realizar la presentaci n del proyecto',
             fecha: '31 de octubre, 2023',
-            url: 'https://example.com',
+            url: 'https://cdn-icons-png.flaticon.com/128/665/665156.png',
           ),
           SizedBox(height: 16.0),
           TareaCard(
-            nombre: 'Carlos Pinto',
+            nombre: 'Kevin Cruz',
+            descripcion: 'Realizar examen del primer parcial.',
+            fecha: '31 de noviembre, 2023',
+            url: 'https://cdn-icons-png.flaticon.com/128/1081/1081015.png',
+          ),
+          SizedBox(height: 16.0),
+          TareaCard(
+            nombre: 'Jampiere Molina',
             descripcion: 'Investigar sobre inteligencia artificial',
             fecha: '5 de noviembre, 2023',
-            url: 'https://example.com',
+            url: 'https://cdn-icons-png.flaticon.com/128/2322/2322993.png',
           ),
-          // Agrega m s ejemplos seg n sea necesario
+           SizedBox(height: 16.0),
+          TareaCard(
+            nombre: 'Tania Quezada',
+            descripcion: 'Realizar Libro contable sobre la unidad 1 de la clase.',
+            fecha: '13 de noviembre del 2023',
+            url: 'https://cdn-icons-png.flaticon.com/128/182/182321.png',
+          ),
+          
         ],
       ),
     );
