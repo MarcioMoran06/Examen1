@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:examenparcial1/podcast.dart';
 
 class PodcastApp extends StatelessWidget {
   const PodcastApp({Key? key}) : super(key: key);
