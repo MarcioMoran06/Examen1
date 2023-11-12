@@ -83,7 +83,7 @@ class CambioMonedaPage extends StatelessWidget {
         title: Text('Cambio de monedas'),
       ),
       body: Center(
-        child: Text('Esta es la p gina de cambio de monedas'),
+        child: Text('Esta es la pagina de cambio de monedas'),
       ),
     );
   }
